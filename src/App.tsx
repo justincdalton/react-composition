@@ -27,19 +27,12 @@ function App() {
         </a>
       </div>
       <h1>React compostion strategies</h1>
-      <h2>AKA flattening the tree</h2>
+      <h2>Flattening the tree</h2>
       <div className="card">
         <button onClick={() => setShowPage("v1")}>Load the page</button>
         <br />
         <br />
         <button onClick={() => setShowPage("v2")}>Load the better page</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR.
-        </p>
-        <p>
-          Tip: you can use the inspector button next to address bar to click on
-          components in the preview and open the code in the editor!
-        </p>
       </div>
     </div>
   );
